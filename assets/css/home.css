@@ -36,6 +36,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover{
+    color: rgb(6, 83, 6);
+}
+
 nav ul li .highlight {
     color: red;
 }
@@ -53,7 +57,7 @@ main {
     padding: 50px;
     position: relative;
     height: 100vh; /* Ocupa a altura inteira da tela */
-    background-image: url('imagem/tlou2-ellie-arma.jpeg'); 
+    background-image: url("../../imagem/tlou2-ellie-arma.jpeg"); 
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
 }
@@ -97,7 +101,6 @@ p {
 
 .btn.red {
     background-color: red;
-    border-color: red;
 }
 
 .btn:hover {
