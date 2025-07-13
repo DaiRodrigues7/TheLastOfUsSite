@@ -1,46 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Last of Us ᖭ༏ᖫ Home </title>
-    <link rel="stylesheet" href="assets/css/home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Last of Us ᖭ༏ᖫ</title>
+  <link rel="stylesheet" href="assets/css/home.css" />
 </head>
 <body>
 
-    <header>
-        <div class="logo">
-            <a href="telainicial.html">
-                <img src="imagem/naughtydog.png.png" alt="Logo">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="personagens.html">PERSONAGENS</a></li>
-                <li><a href="#wallpapres">WALLPAPERS</a></li>
-                <li><a href="#games" class="highlight">GAMES</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <a href="telainicial.html"><img src="imagem/naughtydog.png.png" alt="Logo" class="logo" /></a>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="personagens.html">PERSONAGENS</a></li>
+        <li><a href="#wallpapres">WALLPAPERS</a></li>
+        <li><a href="#games" class="highlight">GAMES</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <div class="content">
-            <h1>THE LAST OF US</h1>
-            <p>Acesse o nosso site e fique por dentro das novidades!</p>
-            <div class="buttons">
-                <a href="https://www.instagram.com/thelastofus/" class="btn red">INSTAGRAM OFICIAL</a>
-                <a href="https://youtu.be/0vB2lHQim3Q?si=cYl-oOvHPvC4g2VG" class="btn">TRAILER DA TEMPORADA 2</a>
-            </div>
+  <main>
+    <div class="content">
+      <h1>THE LAST OF US</h1>
+      <p>Acesse o nosso site e fique por dentro das novidades!</p>
+      <div class="buttons">
+        <a href="https://www.instagram.com/thelastofus/" class="btn red">INSTAGRAM</a>
+        <a href="https://youtu.be/0vB2lHQim3Q?si=cYl-oOvHPvC4g2VG" class="btn">TRAILER TEMP. 2</a>
+      </div>
+    </div>
+  </main>
+
+  <section class="info1">
+    <h2>Temporada 2</h2>
+    <h3>Entenda o que os críticos acharam!</h3>    
+    <p><strong>The Last of Us</strong> aprofunda cicatrizes da perda, da vingança e das escolhas difíceis. Crítica aplaude a coragem da série em tratar temas sombrios com sensibilidade.</p>
+    <p><em>Rotten Tomatoes</em> e <em>Metacritic</em> apontam grande aprovação, com destaque para Ellie e novos personagens que prometem reviravoltas.</p>
+  </section>
+
+  <section class="carrossel">
+    <h3>Imagens da Temporada 2</h3>
+    <div class="carrossel-container">
+      <button class="seta esquerda" onclick="moverCarrossel(-1)">←</button>
+      <div class="carrossel-imagens" id="carrossel-imagens">
+        <img src="imagem/img1.jpg" alt="">
+        <img src="imagem/img2.jpg" alt="">
+        <img src="imagem/img3.jpg" alt="">
+        <img src="imagem/img4.jpg" alt="">
+        <img src="imagem/img5.jpg" alt="">
+        <img src="imagem/img6.jpg" alt="">
+        <img src="imagem/img7.jpg" alt="">
+        <img src="imagem/img8.jpg" alt="">
+        <img src="imagem/img9.jpg" alt="">
+      </div>
+      <button class="seta direita" onclick="moverCarrossel(1)">→</button>
+    </div>
+  </section>
+
+  <div id="modal" class="modal" onclick="fecharModal()">
+    <img id="modal-img" class="modal-img" src="" alt="Imagem Ampliada">
+  </div>
+
+<section class="bastidores">
+    <h2>Bastidores da Produção</h2>
+
+    <div class="bastidor">
+        <img src="imagem/bastidores1.jpg" alt="Construção de cenário">
+        <div class="texto">
+        <h4>Construção de cenário</h4>
+        <p>Cada ambiente é pensado nos mínimos detalhes. A montagem do cenário da cidade de Jackson exigiu um equilíbrio delicado entre aconchego e realidade. Cada faixa, cada luz pendurada nas ruas e cada detalhe das casas e mercados foram cuidadosamente criados para transmitir a rara sensação de comunidade, segurança e esperança, em meio a um mundo devastado. Aqui, o contraste entre o caos exterior e a festa interior revela mais do que um cenário: mostra o que os personagens têm a perder.</p>
         </div>
-    </main>
-    <div class="info1">
-        
     </div>
 
-    <footer>
-        <p>&copy; The Last of Us. Todos os direitos reservados.</p>
-    </footer>
+    <div class="bastidor">
+        <img src="imagem/bastidores2.jpg" alt="Pedro Pascal com Bella Ramsey">
+        <div class="texto">
+        <h4>A conexão: de ator para ator</h4>
+        <p>No último dia de gravações de Pedro Pascal (Joel), o set parou. O abraço entre ele e Bella Ramsey (Ellie) eterniza mais que uma despedida, é o encontro de dois artistas que deram vida a uma das relações mais intensas da televisão. Joel e Ellie se despedem, mas Pedro e Bella deixam uma conexão real marcada para sempre nos bastidores, no coração da equipe e nos fãs do mundo inteiro.</p>
+        </div>
+    </div>
 
+    <div class="bastidor">
+        <img src="imagem/bastidores3.jpg" alt="Kaitlyn Dever com Pedro Pascal">
+        <div class="texto">
+        <h4>Amizades novas e novos personagens</h4>
+        <p>Nos bastidores, Kaitlyn Dever (Abby)e Pedro Pascal (Joel) compartilham um abraço caloroso em meio ao frio da neve, um gesto de afeto entre os intérpretes de personagens marcados por dor e conflito. Apesar da tensão que cerca Abby e Joel na história, fora das câmeras há respeito, cumplicidade e a certeza de que estão construindo algo memorável juntos.</p>
+        </div>
+    </div>
+
+    <div class="bastidor">
+        <img src="imagem/bastidores4.jpg" alt="Ariela Barer e Kaitlyn Dever">
+        <div class="texto">
+        <h4>Organização do elenco</h4>
+        <p>Ariela Barer (Mel) e Kaitlyn Dever (Abby) ouvem atentamente as orientações do diretor, mergulhadas na preparação de uma das cenas mais delicadas da temporada. Nos bastidores, há uma troca intensa de ideias e emoções, revelando o comprometimento das atrizes em dar profundidade às relações complexas existentes.</p>
+        </div>
+    </div>
+</section>
+
+  <footer>
+    <p>&copy; The Last of Us. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/home.js"></script>
 </body>
 </html>
