@@ -1,0 +1,65 @@
+/* Garante altura total da tela e layout em coluna */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container principal da página */
+.pagina {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+
+/* Espaço que empurra o footer para baixo */
+.conteudo {
+  flex: 1;
+}
+
+/* Estilo do menu */
+.menu {
+  padding: 40px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.menu a {
+  display: block;
+  margin: 17px 0;
+  font-size: 20px;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ccc;
+  text-shadow: 0 0 10px #fff;
+  transform: translateX(17px);
+}
+
+/* Vídeo de fundo */
+#video-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Footer no centro inferior da tela */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #888888;
+}
