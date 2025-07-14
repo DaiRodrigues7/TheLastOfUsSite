@@ -42,7 +42,7 @@ body {
 
 .menu a:hover {
   color: #ccc;
-  text-shadow: 0 0 10px #fff;
+  text-shadow: 0 0 10px white;
   transform: translateX(17px);
 }
 

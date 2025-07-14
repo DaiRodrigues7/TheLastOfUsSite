@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #111;
+  background: black;
   color: white;
 }
 
@@ -91,7 +91,7 @@ p {
 }
 
 .info1 {
-  background: #1a1a1a;
+  background: black;
   padding: 60px 80px;
 }
 
@@ -103,7 +103,7 @@ p {
 
 .info1 h4 {
   font-size: 20px;
-  color: #ccc;
+  color: white;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -112,11 +112,11 @@ p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 15px;
-  color: #e0e0e0;
+  color: white;
 }
 
 .carrossel {
-  margin: 60px auto;
+  margin: 5px auto;
   max-width: 900px;
   text-align: center;
 }
@@ -157,11 +157,11 @@ p {
 
 .seta {
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
+  background: black;
   color: white;
   border: none;
   font-size: 24px;
-  padding: 12px;
+  padding: 10px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -197,14 +197,14 @@ p {
 }
 
 .bastidores {
-  padding: 60px 80px;
+  padding: 50px 80px;
   background-color: #3d3d3d;
   color: white;
 }
 
 .bastidores h2 {
   font-size: 36px;
-  color: red;
+  color: white;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -215,15 +215,6 @@ p {
   margin-bottom: 50px;
   gap: 40px;
   flex-wrap: wrap;
-}
-
-/* Alternância entre imagem esquerda e direita */
-.linha-esquerda {
-  flex-direction: row;
-}
-
-.linha-direita {
-  flex-direction: row-reverse;
 }
 
 .bastidor img {
