@@ -43,7 +43,7 @@ nav ul li .highlight {
     color: red;
 }
 
-/* Fundo da seção */
+/* fundo da seção */
 .personagens {
   padding: 80px 20px;
   background-image: url("../../imagem/fundosacada.jpg");
@@ -52,7 +52,7 @@ nav ul li .highlight {
   background-attachment: fixed;
 }
 
-/* Título */
+/* título */
 .personagens h2 {
   text-align: center;
   font-size: 42px;
@@ -61,7 +61,7 @@ nav ul li .highlight {
   text-shadow: 2px 2px 4px black;
 }
 
-/* Container de cards */
+/* container de cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -69,7 +69,7 @@ nav ul li .highlight {
   gap: 30px;
 }
 
-/* Estilo de cada card */
+/* estilo de cada card */
 .card {
   background-color: black;
   border: 2px solid #444;
@@ -96,7 +96,7 @@ nav ul li .highlight {
   color: #ccc;
 }
 
-/* Hover moderno e interativo */
+/* hover moderno e interativo */
 .card:hover {
   transform: scale(1.06);
   border-color: #e04b4b;
@@ -106,7 +106,7 @@ nav ul li .highlight {
   color: #e04b4b;
 }
 
-/* Responsividade simples */
+/* responsividade simples */
 @media (max-width: 600px) {
   .card {
     width: 90%;

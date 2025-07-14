@@ -1,4 +1,4 @@
-/* Garante altura total da tela e layout em coluna */
+/* garante altura total da tela e layout em coluna */
 html, body {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   flex-direction: column;
 }
 
-/* Container principal da página */
+/* container principal da página */
 .pagina {
   display: flex;
   flex-direction: column;
@@ -19,12 +19,12 @@ body {
   height: 100%;
 }
 
-/* Espaço que empurra o footer para baixo */
+/* espaço que empurra o footer para baixo, não consegui sem, pois não tinha contéudo antes */
 .conteudo {
   flex: 1;
 }
 
-/* Estilo do menu */
+/* estilo do menu */
 .menu {
   padding: 40px;
   border-radius: 10px;
@@ -46,7 +46,7 @@ body {
   transform: translateX(17px);
 }
 
-/* Vídeo de fundo */
+/* vídeo de fundo */
 #video-fundo {
   position: fixed;
   top: 0;
@@ -57,7 +57,7 @@ body {
   z-index: -1;
 }
 
-/* Footer no centro inferior da tela */
+/* footer no centro inferior da tela */
 footer {
   padding: 20px;
   text-align: center;
