@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
@@ -63,8 +63,9 @@ nav ul li .highlight {
 
 /* container de cards */
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; /*transforma um container comum em um  flexível*/
+  flex-wrap: wrap; /*elementos que não cabem na linha atual sejam “empurrados” para a próxima linha*/
+  align-items: center;  /*deixou todo o conjunto do card no centro*/
   justify-content: center;
   gap: 30px;
 }
@@ -75,7 +76,7 @@ nav ul li .highlight {
   border: 2px solid #444;
   border-radius: 12px;
   width: 220px;
-  padding: 20px;
+  padding: 7px;
   text-align: center;
   transition: transform 0.3s, border-color 0.3s, background-color 0.3s;
 }
