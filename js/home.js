@@ -30,6 +30,13 @@ document.querySelectorAll('.galeria .card img').forEach(img => {
   });
 });
 
+document.querySelectorAll('.loja .produto img').forEach(img => {
+  img.addEventListener('click', () => {
+    document.getElementById('modal-img').src = img.src;
+    document.getElementById('modal').style.display = 'flex';
+  });
+});
+
 function fecharModal() { 
   document.getElementById('modal').style.display = 'none';
 }
