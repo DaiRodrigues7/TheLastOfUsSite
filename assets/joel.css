@@ -86,10 +86,7 @@ section.detalhe h1 {
 }
 
 section.detalhe img {
-  max-width: 350px;
-  height: auto;
   border-radius: 10px;
-  margin-bottom: 70px;
 }
 
 section.detalhe p {
